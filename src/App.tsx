@@ -17,7 +17,7 @@ import "@pankod/refine-antd/dist/reset.css";
 import dataProvider from "@pankod/refine-simple-rest";
 import routerProvider from "@pankod/refine-react-router-v6";
 import { ColorModeContextProvider } from "contexts";
-import randomCat from "pages/httpCat/randomCat";
+import randomCats from "pages/httpCat/randomCats";
 import randomDog from "pages/randomDog/randomDog";
 import { Login } from "pages/login/index";
 
@@ -41,7 +41,7 @@ function App() {
           },
           {
             name: "httpCat",
-            list: randomCat,
+            list: randomCats,
           },
           {
             name: "randomDog",
